@@ -1,0 +1,143 @@
+questions: [
+    {
+        id: 0,
+        type: 'input',
+        question: 'Question(input)',
+        answer: '',
+    },
+    {
+        id: 1,
+        type: 'checkbox',
+        question: 'Question(checkbox)',
+        answer: [],
+        variants: [
+            {
+                id: 0,
+                name: 'Point 1',
+                value: 1
+            },
+            {
+                id: 1,
+                name: 'Point 2',
+                value: 2
+            }
+        ],
+        custom: {
+            value: '',
+            answer: '',
+        }
+    },
+    {
+        id: 2,
+        type: 'select',
+        question: 'Question(select)',
+        answer: '',
+        default: {
+            name: 'Default variant',
+            value: -1
+        },
+        variants: [
+            {
+                id: 0,
+                name: 'Yes',
+                value: 1
+            },
+            {
+                id: 1,
+                name: 'Maybe',
+                value: 2
+            }
+        ]
+    },
+    {
+        id: 3,
+        type: 'radio',
+        question: 'Question(radio)',
+        answer: '',
+        variants: [
+            {
+                id: 0,
+                name: 'Yes',
+                value: 1,
+                label: 'Yes'
+            },
+            {
+                id: 1,
+                name: 'No',
+                value: 2,
+                label: 'No'
+            }
+        ]
+    }
+]                    questions: [
+    {
+        id: 0,
+        type: 'input',
+        question: 'Question(input)',
+        answer: '',
+    },
+    {
+        id: 1,
+        type: 'checkbox',
+        question: 'Question(checkbox)',
+        answer: [],
+        variants: [
+            {
+                id: 0,
+                name: 'Point 1',
+                value: 1
+            },
+            {
+                id: 1,
+                name: 'Point 2',
+                value: 2
+            }
+        ],
+        custom: {
+            value: '',
+            answer: '',
+        }
+    },
+    {
+        id: 2,
+        type: 'select',
+        question: 'Question(select)',
+        answer: '',
+        default: {
+            name: 'Default variant',
+            value: -1
+        },
+        variants: [
+            {
+                id: 0,
+                name: 'Yes',
+                value: 1
+            },
+            {
+                id: 1,
+                name: 'Maybe',
+                value: 2
+            }
+        ]
+    },
+    {
+        id: 3,
+        type: 'radio',
+        question: 'Question(radio)',
+        answer: '',
+        variants: [
+            {
+                id: 0,
+                name: 'Yes',
+                value: 1,
+                label: 'Yes'
+            },
+            {
+                id: 1,
+                name: 'No',
+                value: 2,
+                label: 'No'
+            }
+        ]
+    }
+]
